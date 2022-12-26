@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<button class="btn btn-primary" onclick="location.href ='@Url.Action("GoogleSignIn","Home")'">Sign In</button>
+<button class="btn btn-primary" onclick="location.href ='@Url.Action("Refreshtoken","OAuth")'">Refresh token</button>
+<button class="btn btn-primary" onclick="location.href ='@Url.Action("Revoketoken","OAuth")'">Revoke token</button>
+<button class="btn btn-primary" onclick="location.href ='@Url.Action("FacebookSignIn","Home")'">Facebook SignIn</button>
+<button class="btn btn-primary" onclick="location.href ='@Url.Action("FacebookLogOut","Home")'">Facebook </button>
+
